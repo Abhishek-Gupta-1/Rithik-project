@@ -136,28 +136,20 @@ main {
 
 .button-container {
     text-align: center;
-    /* Align buttons in the center */
     padding-top: 45rem;
     padding-right: 57rem;
 }
 
 .find-out-more-button {
     background-color: #f1a501;
-    /* Yellow background color */
     border: none;
     border-radius: 5px;
-    /* You can adjust the border-radius */
     padding: 10px 20px;
-    /* You can adjust padding as needed */
-    color: black;
-    /* Text color */
+    color: white;
     font-size: 16px;
-    /* Font size */
     cursor: pointer;
     display: inline-block;
-    /* Display buttons inline */
     margin-right: 20px;
-    /* Adjust margin between buttons */
 }
 
 .play-demo-button {
