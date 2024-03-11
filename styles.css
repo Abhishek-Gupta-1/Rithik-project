@@ -1,0 +1,193 @@
+body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+
+}
+
+nav {
+    background-color: rgba(255, 255, 255, 0);
+    /* Transparent background */
+    /* backdrop-filter: saturate(180%) brightness(105%) contrast(95%) blur(20px); */
+    /* Adjust the filter to your liking */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+}
+
+.girl {
+    position: absolute;
+    padding-left: 0%;
+    padding-top: 0%;
+    margin-top: 0%;
+    margin-left: 0%;
+}
+
+
+.hero {
+    /* padding-top: 10rem;
+    padding-right: 40rem; */
+    background-image: url('./finalgirl.png');
+    background-size: 105%;
+    background-repeat: no-repeat;
+    height: 60rem;
+
+
+}
+
+.signup {
+    background-color: transparent;
+    padding: 5px 10px;
+    font-size: 15px;
+    border-radius: 5px;
+
+}
+
+
+.category {
+    text-align: center;
+    align-items: center;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.extra {
+    padding-right: 8rem;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 3rem;
+    font-size: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+main {
+    padding: 2rem;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.title {
+    font-size: 4rem;
+    margin: 0;
+    line-height: 1.2;
+}
+
+.button1 {
+    display: inline;
+    position: relative;
+    margin-top: 2rem;
+    padding-top: 45rem;
+    padding-right: 69rem;
+}
+
+.button2 {
+    display: inline-block;
+    padding-right: 40rem;
+    padding-top: 0;
+}
+
+/* 
+.yellow-button {
+    background-color: #f1a501;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+} */
+/* 
+.play-demo-button {
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+} */
+.button-container {
+    text-align: center;
+    /* Align buttons in the center */
+    padding-top: 45rem;
+    padding-right: 57rem;
+}
+
+.find-out-more-button {
+    background-color: yellow;
+    /* Yellow background color */
+    border: none;
+    border-radius: 5px;
+    /* You can adjust the border-radius */
+    padding: 10px 20px;
+    /* You can adjust padding as needed */
+    color: black;
+    /* Text color */
+    font-size: 16px;
+    /* Font size */
+    cursor: pointer;
+    display: inline-block;
+    /* Display buttons inline */
+    margin-right: 20px;
+    /* Adjust margin between buttons */
+}
+
+.play-demo-button {
+    background-color: transparent;
+    /* Transparent background color */
+    border: 2px solid #6f6b6b;
+    /* You can adjust the border color and thickness */
+    border-radius: 5px;
+    /* You can adjust the border-radius to make it rounder */
+    padding: 10px 20px;
+    /* You can adjust padding as needed */
+    color: black;
+    /* You can adjust text color */
+    font-size: 16px;
+    /* You can adjust font size */
+    cursor: pointer;
+    display: inline-block;
+    /* Display buttons inline */
+}
+
+.logo {
+    width: 35px;
+    /* You can adjust the size of the logo */
+    height: 35px;
+    /* You can adjust the size of the logo */
+    margin-right: 10px;
+    /* You can adjust the spacing between the logo and text */
+}
